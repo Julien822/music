@@ -1,8 +1,8 @@
 {
-  "name": "wangyiyun-app",
+  "name": "music web",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "CaiJinyc <me@caijin.tech>",
+  "description": "A Vue.js project for music",
+  "author": "Julien82 <191100049@qq.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --host 0.0.0.0 --inline --progress --config build/webpack.dev.conf.js",
