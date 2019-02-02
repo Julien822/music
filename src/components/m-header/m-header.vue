@@ -1,6 +1,6 @@
 <template>
   <div class="m-header">
-    <h1 class="text">VMUSICJIN</h1>
+    <h1 class="text">一起听歌吧~</h1>
     <router-link to="/user" class="mine" tag="div">
      <i class="iconfont icon-list"></i>
     </router-link>

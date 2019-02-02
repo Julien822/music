@@ -29,13 +29,14 @@ export default {
   height: 44px;
   width: 100%;
   font-size: $font-size-medium;
-  background: $color-theme;
+  background: #fff;
+  border-bottom: 1px solid rgba(0,0,0,.1);
   .tab-item {
     // 如果所有项目的flex-grow属性都为1，则它们将等分剩余空间（如果有的话）
     flex: 1;
     // 垂直
     text-align: center;
-    color: $color-text-lm;
+    color: #333;
     span {
       // display: inline-block;
       padding-bottom: 3px;
@@ -43,8 +44,8 @@ export default {
     &.router-link-active {
       span {
         font-weight: bold;
-        color: $color-text-l;
-        border-bottom: 2px solid $color-text-l
+        color: $color-theme;
+        border-bottom: 2px solid $color-theme
       }
     }
   }
